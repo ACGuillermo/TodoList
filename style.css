@@ -1,0 +1,152 @@
+html{
+  padding: 0;
+  margin: 0;
+  font-family: 'Abel';
+  font-size: 3vw;
+}
+h1{
+
+}
+body{
+  background-color: #CBEBF4;
+  background: linear-gradient(to right, #cbebf4 0%,#99cfde 100%);
+}
+
+
+
+/* Initialize media querys. Mobile first. */
+.todoList-wrap{
+  width: 100vw;
+  height: 90vh;
+  background-color: white;
+  margin: auto;
+  border-radius: 1%;
+}
+
+@media (min-width: 600px){
+  .s{
+    width: 80vw;
+    height: 90vh;
+  }
+  html{
+    font-size: 2.5vw;
+  }
+}
+
+@media  (min-width: 800px){
+  .m{
+    width: 60vw;
+    height: 80vh;
+  }
+  html{
+    font-size: 2vw;
+  }
+}
+
+@media (min-width: 1024px){
+  .l{
+    width: 40vw;
+    height: 90vh;
+  }
+  html{
+    font-size: 1vw;
+  }
+}
+/* Todolist HEADER*/
+.todo-header{
+  width: 100%;
+  height: 30%;
+  background-image: url("headertodo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+/* HEADER LEFT */
+.left-todo{
+  width: 60%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.todo-date{
+  color: white;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  color: rgba(230, 242, 255, 0.7);
+}
+
+.todo-title{
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 5vw;
+}
+/* HEADER RIGHT */
+.right-todo{
+  width: 40%;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* TodoList BODY */
+.todo-body {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-inbox {
+  width: 90%;
+  height: 70%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
+}
+
+.todo-item {
+  width: 95%;
+  min-height: 12vh;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px gray solid;
+
+}
+
+.todo-text {
+  display: flex;
+  justify-content: space-between;
+  word-break: break-all;
+}
+
+.todo-subtext {
+}
+
+/* Todo ADDBUTTON */
+.todo-addItem {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-danger {
+    align-self: flex-end;
+    font-weight: 800;
+}
+
+.btn-add{
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 1vw;
+}
