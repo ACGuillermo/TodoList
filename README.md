@@ -6,6 +6,6 @@ Wanted to use just CSS + JS but used Bootstrap in two buttons, add button and de
 
 My designing skills are not top notch.. :P!
 
-Live demo: https://jacknoddyz.github.io/TodoList/
+Live demo: https://acguiller.github.io/TodoList/
 
 Happy Coding :)!
